@@ -26,4 +26,4 @@ jobs:
       run: mvn compile
       
     - name: Executando o projeto
-      run: Run java -cp target/classes org.example.Main
+      run: java -cp target/classes org.example.Main
